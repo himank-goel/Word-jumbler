@@ -23,9 +23,28 @@ for word in jumbled_list:
     # print output_dict
 
 f = open("output.txt", "w+")
+ 
+print "--------------------"
+
+score = 0
+wrong_words = []
 
 for word in wordlist:
     f.write("%s - %s\n" % (word, output_dict[word]))
     # print output_dict[word]
+    marks = raw_input("%s - %s\n" % (word, output_dict[word]))
+    type(marks)
+    score += int(marks)
+    if(int(marks) != 1):
+        wrong_words.append(word)
+
+print "---------------------"
+
+print "Score %d" %(score) 
+
+print "---------------------"
+
+print "List of wrong words"
+print wrong_words
 
 # print jumbled_list

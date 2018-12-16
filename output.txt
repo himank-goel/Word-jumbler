@@ -1,3 +1,6 @@
-Psychiatrist - a
-Irreparable - b
-Dogmatic - c
+Psychiatrist - c
+Irreparable - f
+Dogmatic - e
+Adulterate - d
+Incessant - b
+Humane - a
